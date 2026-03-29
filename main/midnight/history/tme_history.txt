@@ -1,0 +1,105 @@
+The Midnight Engine
+
+Build (56)
+1. FIXED: LOM - Crash when seeking and finding an object that can be picked up
+
+Build (55)
+1. FIXED: LOM - Crash at startup after previously chaning scenaro to LOM_NOVEL
+2. FIXED: DDR - Friendly Lord 'prepares For battle' at friendly fortress after being recruited
+
+Build (54)
+1. FIXED: LOM - Crash when after Moonring wearer dies
+2. FIXED: Incorrect hours remaining shown after finding guidance
+3. FIXED: Problem with shaders on older devices - Black rectangles around characters
+
+Build (53)
+1. FIXED: ANDROID: Start new game crash - stop proguard stripping axmol utils.
+
+Build (52)
+1. UPDATED: Moved to Axmol for better device support
+2. FIXED: IOS - Safe area display
+3. ADDED: LOM - Game Rule - Fey Recruitment
+4. ADDED: LOM - Preview of Novel Scenario
+5. FIXED: LOM - Terrain display on think screen
+6. FIXED: DDR - Crash when recruiting soldiers from depleted stronghold
+7. FIXED: DDR - Character slain by a lords object is not displayed correctly
+8. FIXED: DDR - Guidance potentially showing info on dead lords
+9. FIXED: DDR - Discovery map should not show locations not visited above tunnels
+10. FIXED: DDR - Critters shouldn't show for tunnels not visited
+
+Build (51)
+N/A
+
+Build (50)
+1. ADDED: Welcome popup for first time user
+2. FIXED: DDR - Dead lords showing on think pages
+3. FIXED: DDR - Dead lords making a lord still think they 'prepares for battle'
+
+Build (49)
+1. FIXED: Check Place think page showing just Ahead...
+2. FIXED: recruit soldiers not working
+
+Build (48)
+1. FIXED: ANDROID: Credits crash - stop proguard stripping version utils.
+
+Build (47)
+1. ADDED: Game Difficulty - Number of followers should affect outcome of fights
+2. UPDATED: Lords should not be displaced when a member of a group
+3. UPDATED: Groups should not disbanded when the leader dies in a battle
+4. ADDED: Game Difficulty - Number of Soldiers affects the outcome of a fight
+5. ADDED: DDR - Game Option - Upgrade to Shareth Army AI
+6. FIXED: DDR - Character without an army doesn't trigger an AI lord deciding to stay at a location
+7. FIXED: DDR - 'prepares to do battle' message is shown incorrectly
+8. FIXED: DDR - Imgorarg's loyalty is incorrect - should be Dwarf
+9. FIXED: DDR - Dawn energy boosts are flipped for AI / Non AI characters
+10. FIXED: DDR - Dawn energy boosts for resting are fixed and not based on hours remaining
+11. FIXED: DDR - Recruitment does not take in to account the power of the 5 main special objects
+12. FIXED: DDR - Incorrect object name / types
+
+Build (46)
+1. ADDED: Game Difficulty - time affects seeking
+2. ADDED: Game Difficulty - time affects hiding
+3. ADDED: Game Difficulty - time affects recruiting
+4. FIXED: DDR - Think page incorrectly shows Person and Army info outside of tunnels
+5. ADDED: DDR - Game Option - Don't swap after successful approach
+6. ADDED: LOM - Game Option - Auto Seek enhancement
+7. ADDED: LOM - Game Option - Auto Approach enhancement
+8. UPDATED: Android target sdk 33
+
+Build (45)
+1. FIXED: [tme] - DDR - strongholds don't change Occupier if the race is the same
+2. FIXED: [tme] - DDR - Night processing hangs because of circular lieges
+3. FIXED: [tme] - DDR - Obigrorn the Giant starts with Riders
+4. FIXED: Options menu is sometimes off the screen on narrow screens.
+5. ADDED: 100% scale to panel_map_detailed
+6. FIXED: Give, Take, and Use text not working on action buttons
+7. FIXED: Check place should show when entering a location with an artefact
+8. FIXED: Replacing missing Keyboard option on desktop devices
+9. ADDED: Game Difficulty - Easy / Normal / Hard
+10. ADDED: DDR: Gameplay Rule - Intended original terrain travel times
+
+Build (44)
+1. ADDED: panel_map_detailed - tool tip for location - press
+2. ADDED: panel_options - gameplay rules
+3. ADDED: Rule: Impassable Mountains
+4. ADDED: Rule: AI Impassable Mountains
+5. ADDED: Rule: Sole Mountaineer
+6. ADDED: Rule: LoM - Unrecruitable Fey
+7. ADDED: DDR - Fast tunnels
+8. FIXED: Character Time Shader
+9. FIXED: DDR - Battle Algorithm
+10. FIXED: DDR - Race preferred terrain for movement
+11. FIXED: DDR - Cowardly lords attacking
+12. FIXED: Android Rotation
+
+Build (43)
+1. ADDED: permanent scrollbar to all scrollable tip windows
+2. ADDED: panel_map_detailed - clarity behind multi lord select popup
+3. ADDED: panel_look - compass - Long Press (see options)
+4. ADDED: panel_look - tool tip to lords on landscaping screen - press
+5. ADDED: panel_look - select lord from landscaping screen
+6. ADDED: panel_look - lord name to approach icon on choose actions
+7. FIXED: panel_select - crash caused by adding a new page / reorganise button
+8. FIXED: panel_select - [win] missing or corrupt lord names
+9. FIXED: panel_select - truncated long lord names
+10. FIXED: [tme] - DDR - stop diagonal movement of lord in tunnel

@@ -1,0 +1,285 @@
+Doomdark's Revenge
+
+Version 2.0.2 (42)
+1. fix creatures showing up on diagonal directions in tunnels
+2. move tunnel creatures to their own layer on panel_map_detailed
+3. [desktop] Added cursor sizes (small/medium/large)
+
+Version 2.0.2 (41)
+1. fix crash caused by using CROWN OF VARENAND or CARUDRIUM
+2. panel_think - adjust page indicator size dependent on number of pages
+
+Version 2.0.2 (39)
+1. Fix win condition when Shareth dead
+2. Fix win/lose messages
+3. Disable drag look when in tunnels
+4. Return graffiti easter egg
+5. Add confirm night option
+6. panel_look - Add drag down gesture to moves
+7. panel_look - Add drag up gesture for map
+8. [desktop] Add mouse cursor images
+9. [desktop] Consolidate ESC key across all screens
+10. [desktop] Tidy shortcut keys across all screens
+11. [Android] panel_mainmenu Hardware back button now performs Exit
+12. [mobile] Tweak scale of buttons
+
+Version 2.0.2 (38)
+1. Fixed: panel_look - Fix black rectangle when transition from tunnel views
+2. Fixed: panel_think - adjust UI on phone
+3. panel_look - tidy character in header
+4. Fixed: panel_look - adjust colours of characters according to time
+5. Fixed: potential memory leaks that could be causing crashes
+6. Added: panel_think - Icon for Enter Tunnel
+
+Version 2.0.2 (37)
+1. First release of rebuild - see lom_history.txt for details
+2. panel_look - Center tunnel view
+3. Make think start with THINK_PLACE
+4. Fixed: panel_look - correct panning of double landscape feature - mist & army
+5. Fixed: panel_map - Background behind tunnel always white when location not seen
+
+Version 1.4.0
+1. Added discovery map
+2. Change to undo system ready for difficulty modes
+3. Added ability to UNDO from the game over screen!
+4. Ability to undo multiple dawns
+5. Handle new screen resolutions
+6. Built for latest IOS SDK
+7. Support 64 bit devices
+8. Cosmetic changes on scrolling views - dithered
+
+Version 1.3.9
+1. Fix circular reference for GetNextLiege and GetNextFoe
+2. Fix cause of circular reference
+3. Fix dead characters continually fighting.
+
+Version 1.3.8
+1. Seek at tower now gives correct guidance about lords object rather than another object
+2. Removed stray space in seek message
+3. Added lord location when describing and object being carried during guidance
+4. Fixed crash bug caused when two lords in a battle killed each other
+
+Version 1.3.7
+1. Fix recruitment check.
+2. Implement AI do nothing correctly
+3. Stop AI characters liege changing to Luxor when their own liege is dead or they have no liege ( ie. shareth )
+4. A little tidy up on the map - text display
+5. Build for iOS8
+6. Include iPhone6 resolutions
+
+Version 1.3.6
+1. Fix recruitment check. Loyalty of character being approached now gives +1 and their treachery /2
+
+Version 1.3.5
+1. Morkin's AI attribute is reset once recruited. Stops him moving and allows him to move in tunnels.
+2. Tarithel can no longer be recruited away
+3. Spell of Carudrium now works correctly
+
+Version 1.3
+1. Springs of life now apply the correct rejuvenation amount
+2. Movement times have been corrected
+3. Critters can now re-appear on squares that holds a dead lord.
+4. You can now correctly attack army-less characters
+5. Morkin is now considered AI character until recruited. Which means he moves!
+6. Shareth now correctly targets the City of Glireon as her home, but Imiriel as her stronghold
+7. Corrected all the AI orders
+8. AI Characters now correctly choose new FOE/LIEGE upon the death of their current ones.
+9. Taken strongholds now correctly respawn soldiers at night
+10. You can correctly recruit or enter battle at dawn after a battle.
+11. AI Characters recruited by other AI characters are no longer available for control
+12. Altered collection order of characters for battle to match original
+13. AI Characters now correctly only attempt recruit when there is 1 lord and not at a stronghold
+14. AI Characters now correctly randomly stop a location in-front of an enemy
+
+Version 1.3.1
+15. Displays 'Prepares to do battle' correctly.
+16. Armies are now displayed at all locations
+17. Defeated message is no longer shown for a lord who played no part in a battle he was attending!
+18. Lord no longer reports as being killed by another lord, when they were in fact killed by soldiers.
+19. Critters are less likely to kill a lord
+20. Objects are now described with full power description
+
+Version 1.3.2
+21. Taken strongholds now reset to correct army type
+22. Taken strongholds now reset to correct number of soldiers
+23. Lords who defect now correctly revert to AI and are no longer controllable
+24. Energy costs are now calculated correctly
+25. Energy costs during movement are now applied in all situations
+26. Utterly Tired and cannot continue now displays earlier on the utterly tired scale!
+27. Utterly Tired and cannot continue now stops a lord moving earlier
+28. Seeking/Fighting now correctly happens on the last turn of night
+29. Seeking/Fighting now correctly happens when leaving a tunnel
+30. Tunnel exit transition added
+31. Tunnel and Undo transition are now governed by the transition option
+32. Battles no longer take place when your lords are in tunnels.
+
+Version v1.2
+1. Critters and items at location are now the same as the original
+2. Recruit limit is now 1250
+3. You can no longer recruit when lords are not on their own
+4. You can no longer approach at night,
+5. You can no longer recruit/post men at night.
+6. Characters shouldn't be able to do anything at night!!!
+7. AI Lord now only recruits soldiers from stronghold he is at, not is home stronghold.
+8. Critters now have better colouring at night and dawn
+9. Looking into mists now shows correct description.
+10. Loses to critters should now be in the correct multiple of 5
+11. Strongholds now change hands correctly at the end of battle
+12. People who run from a battle no longer say they're preparing for battle.
+13. After a failed approach the first screen now shows the correct terrain.
+14. Find dawn or night the think screen now reports the correct time.
+15. Fixed crashed caused by missing advert screen
+16. Maximum characters in a location has been increased to 128, fixes the use of the crowns.
+17. Removed stray line-break in 'prepares to do battle' text
+18. Fixed formatting of guidance text
+19. Stronghold is owned by description has been corrected.
+20. You can now move after recruiting Morkin!
+
+Version 1.1
+1. Fixed Android memory issue
+
+Version 1.0 Initial Release
+1. Fixed POT Textures memory allocation for screens
+
+Version 0.1.23
+1. Fixed Android rotation issues
+2. Fixed Android tunnel display
+
+Version 0.1.22
+1. Fixed exit application dialog on Android
+
+Version 0.1.21
+1. Fixed Android tribute screen
+2. Fixed text placement on android think screen
+3. Seek now correctly includes lords
+4. Using a special object now displays some relevant text
+
+Version 0.1.20
+1. Correct Group Exit Tunnel fix!!!
+
+Version 0.1.19
+1. Grouped lords now enter/exit tunnel correctly
+2. Tutorial Window now shows topmost above group leader icon
+3. Fixed lines under terrain
+4. 'Slain by..." message is now correct.
+
+Version 0.1.18
+1. Fixed crash bug during night
+2. Fixed lords who appear to be in a fight with no-one
+3. Resting a group leader now places the whole group in rest.
+4. All iOS resolutions now working
+5. Increased memory requirements on lower devices
+6. Overview map no longer responds to clicking on underlying gadgets, and tooltips.
+
+YES 2048x1536
+YES 1024x768
+YES 960x640
+YES 1136x640
+YES 480x320
+
+Version 0.1.17
+1. Tarithel can now correctly recruit Morkin
+2. Battles are now calculated correctly
+3. Battles are now reported correctly
+4. Killing critters at the same location as an object now describes correctly
+
+1. >> Select icons stacking
+2. >> Battle think should show for all characters at the current location who fought
+3. >> Battles in tunnels from above ground?
+
+Version 0.1.16
+1. Victory Conditions now implemented
+2. Select background image change for DDR
+3. Added ddr specific adverts
+4. Number of days > 999 now reported as countless ( not likely required, but as per the original! )
+5. Armies in tunnels no longer show up above surface
+6. Dead lords no longer show up in the lanscape
+7. Swapping from lord in tunnel to lord above ground, where critters are visible, no longer leaves critters on screen
+8. Check Army now correcty mentions the tunnel and not above ground when in a tunnel.
+
+Version 0.1.15
+1. Shareth's and Morkin's deaths are now reported on the night screen.
+2. Lords correctly fight critters after an approach/attack
+
+Version 0.1.14
+1. Uploaded guide to play PDF
+2. All lords at the same location now correctly fight during the night
+3. Lords following another lord now enter into battle correctly
+4. Removed battle memory leak.
+5. Approach now correctly moves all group lords forward
+6. Approach now correctly checks for successful Approach on main view screen
+7. Approach will now be successful if any of the group can succeed in the approach
+8. Unfollow/Disband now works correctly on think screen after an unsuccessful move/attack
+9. Rest now works correctly - energy in general now increases correctly
+10. Battle description is now correct
+
+Version 0.1.13
+1. Fixed foe being set correctly after lord is recruited
+2. Fixed think screen showing the correct inital approach lord
+3. Added guide to play to the website
+4. Reduced memory requirements to allow game to work on iPad1
+
+Version 0.1.12
+1. finalised Tutorial text
+2. Fixed Bug in tutorial text location selection
+3. Group moving now assigns the seek to leader of the group
+4. Lords can now only recruit their army type (riders or warriors )
+5. Dead lords no longer show as in battle.
+6. Battles now include all the lords at the location
+7. Lords losing a battle will leave or disband a group accordingly
+
+Version 0.1.11
+1. Fixed AI characters moving in the wrong direction
+2. Fixed recruit/guard on the think screen
+
+Version 0.1.10
+1. Fixed object being picked up during a seek guidance
+2. Fixed Shader changes on think screen transition
+3. Fixed loading game when a lord is dead leaving the main menu in the background
+4. Fixed black screen of death - Problem is when a seek occurs as you move into a location and the location in front has an approachable character
+5. Fixed select screen crash with more than 40 characters
+6. Added lose condition for luxor dying.
+7. Fixed incorrect display number of lords at fortress
+
+Version 0.1.09
+1. No longer select Morkin from map
+2. Morkin now has correct imagery
+3. Shareth now has map icon
+
+
+Things to tidy up!!!
+1. gate_varenorn hardcoded - should be a place (6,92)
+2. Use of the following defines
+
+            OB_CROWN_VARENAND=22,
+            OB_CROWN_CARUDRIUM,
+            OB_SPELL_THIGROR,
+            OB_RUNES_FINORN,
+            OB_CROWN_IMIRIEL
+
+            MAX_DESPONDENCY                 255
+            MAX_ENERGY                      255
+            DESPONDENCY_BOOST_KILLED_FOE    32
+            SOLDIERS_RECRUIT_GAP            20
+            MIN_AI_MOVEMENT_ENERGY          96
+            RESTING_ENERGY_BOOST            32
+            DAWN_ENERGY_BOOST               20
+            DAWN_ENERGY_BOOST_AI            10
+
+3. Use of strings
+4. mxobjpower_t not used
+5. hard coded ddr_battle::getArmyStrength
+6. ddr_x::initialiseAfterCreate
+7. Include _DDR_ changes with different scenario flags ( eg. SF_USE_TUNNELS )
+8. Fix automap
+9. Hard coded Mike Seek locations / grafitti
+10. Simplfy seek functionality
+11. Unused flag of_recruitment ?
+12. Unused flag of_randomstart
+13. Hardcoded HasTunnelExit
+14. HardCoded HasTunnelEntrance
+15. HardCoded IsTunnelPassageway
+16. Map DDR - FrozenWaste -> IceWaste
+18. FindArmiesHere - Friend or Foe
+19. Harcoded token Arrays
+20. Fix image lines on terrain
