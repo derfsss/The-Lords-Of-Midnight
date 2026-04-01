@@ -447,16 +447,16 @@ void uipanel::addMouseListener()
 {
     mouseEventListener = ResumeEventListenerMouse::create();
     
-    mouseEventListener->onMouseMove = [this](Event* event)
+    mouseEventListener->onMouseMove = [this](EventMouse* mouseEvent) -> bool
     {
-        auto mouseEvent = static_cast<EventMouse*>(event);
         cursorPosition = Vec2(mouseEvent->getLocation().x, mouseEvent->getLocation().y);
-        
+
         if(imgCursor!=nullptr) {
             imgCursor->setPosition(cursorPosition+cursorAnchor);
         }
-        
+
         OnMouseMove(cursorPosition);
+        return false;
     };
     
     _eventDispatcher->addEventListenerWithSceneGraphPriority(mouseEventListener, this);
